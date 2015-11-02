@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:gravity="center_vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gameName"
+        android:src="@drawable/logo"
+        android:layout_gravity="center_horizontal" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/gameLogo"
+        android:src="@drawable/label"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="0dp"
+        android:padding="0dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnPlay"
+        android:src="@drawable/play"
+        android:layout_gravity="center"
+        android:backgroundTintMode="src_over"
+        android:background="@drawable/play" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnRules"
+        android:layout_rowWeight="1"
+        android:src="@drawable/rules"
+        android:layout_gravity="center"
+        android:background="@drawable/rules" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnExit"
+        android:src="@drawable/exit"
+        android:layout_gravity="center"
+        android:background="@drawable/exit" />
+</LinearLayout>
