@@ -37,8 +37,11 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 startActivity(intent);
                 break;
             case R.id.btnRules:
+                intent = new Intent(this, Rules.class);
+                startActivity(intent);
                 break;
             case R.id.btnExit:
+                finish();
                 break;
         }
     }
